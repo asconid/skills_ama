@@ -37,11 +37,23 @@ Setiap simulasi laporan keuangan **WAJIB** menyajikan ke-15 kelompok akun beriku
 
 ---
 
-## 2. Format Output Simulasi
+## 2. Format Output Simulasi & Ekspor Otomatis
 
 Sajikan hasil simulasi dalam tabel komparatif dan seimbang:
 1. **Laporan Laba Rugi Komprehensif (Kelompok 7 s.d. 15)** lengkap dengan persentase terhadap omzet.
 2. **Laporan Posisi Keuangan / Neraca (Kelompok 1 s.d. 6)** dengan prinsip: `TOTAL ASET = TOTAL KEWAJIBAN + EKUITAS`.
+
+### 📄 Ekspor Otomatis Dokumen (CSV & PDF)
+Setiap kali menyusun atau memperbarui laporan keuangan/simulasi, AMA **WAJIB** secara otomatis membuat dua berkas laporan fisik:
+- **Format CSV (`.csv`)**: Tabel data terstruktur 15 akun baku untuk analisis lebih lanjut di Excel/Spreadsheet.
+- **Format PDF (`.pdf`)**: Dokumen laporan keuangan siap cetak berstandar profesional (A4) yang di-generate via script otomasi headless browser:
+  `scripts/export_financial_report.ps1` (menggunakan Google Chrome atau Microsoft Edge bawaan).
+
+**Aturan Penamaan & Penyimpanan Berkas:**
+- Format nama berkas: `[TahunBulanTanggal]_[Jenis_Dokumen]_[Keterangan].[csv|pdf]` (contoh: `20261231_Laporan_Keuangan_PT_Maju_Bersama.csv`).
+- Jika berada di proyek klien (`ama-klien`): Simpan ke `[Tahun]/05_Laporan_Final/02_Laporan_Keuangan_Tahunan/` atau `01_Laporan_Keuangan_Bulanan/`.
+- Jika simulasi mandiri (*standalone*): Simpan ke folder `reports/` atau root direktori kerja.
+- **Wajib cantumkan tautan dokumen langsung (`file://...`)** pada respons obrolan agar pengguna dapat langsung membuka file hasil ekspor.
 
 ---
 

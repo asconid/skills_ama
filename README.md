@@ -35,6 +35,8 @@ Kumpulan *Agent Skills* profesional untuk konsultasi akuntansi dan perpajakan In
    Mendukung integrasi NIK/NITKU 16 digit, e-Bupot Unifikasi, dan e-Faktur Coretax.
 6. **Inisialisasi Otomatis Struktur Arsip Klien (Single & Multi Client)**:
    Membangun struktur folder arsip kerja terstandarisasi (`Template_Struktur_client`) mencakup `00_Dokumen_Permanen`, administrasi kontrak, data mentah klien, kertas kerja akuntansi, arsip perpajakan, dan laporan final dengan panduan SOP file `keterangan.txt`. Langsung di root untuk mode *Single Client* atau langsung per folder `[nomor_urut]_[nama_klien]/` (tanpa folder pembungkus Klien/) untuk mode *Multi Client*.
+7. **Ekspor Otomatis Laporan Keuangan ke CSV & PDF**:
+   Setiap penyusunan simulasi maupun laporan keuangan klien secara otomatis menghasilkan berkas fisik `.csv` (tabel data terstruktur 15 kelompok akun baku) dan `.pdf` (dokumen cetak berstandar profesional via headless browser) lengkap dengan tautan dokumen langsung.
 
 ---
 

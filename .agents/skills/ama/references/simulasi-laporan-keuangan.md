@@ -64,7 +64,42 @@ Setiap kali menjalankan simulasi, sajikan hasil dalam format tabel yang seimbang
 
 ---
 
-## 3. Matriks Sambungan / Chaining ke Triggers Lainnya
+## 3. Standar Ekspor Otomatis ke Format CSV & PDF
+
+Setiap kali simulasi atau laporan keuangan disusun, AMA **WAJIB** mengekspor hasil ke dalam dua format dokumen:
+
+1. **Format CSV (`.csv`)**:
+   - File tabel data terstruktur berbasis pemisah titik koma (`;`) atau koma (`,`) dengan encoding UTF-8.
+   - Siap diimpor dan diolah kembali di Microsoft Excel, Google Sheets, atau software akuntansi.
+   - Memuat 15 kelompok akun baku lengkap dengan kategori jenis laporan, nilai simulasi, % terhadap omzet, dan catatan akun.
+
+2. **Format PDF (`.pdf`)**:
+   - Dokumen cetak laporan keuangan resmi dengan tipografi dan penataan visual profesional (A4 portrait/landscape).
+   - Dibuat secara otomatis menggunakan script otomasi tanpa dependensi pihak ketiga via browser headless (Google Chrome / Microsoft Edge):
+     `.agent/skills/ama-simulasi/scripts/export_financial_report.ps1`
+   - Menyertakan header entitas, periode pelaporan, tabel Laba Rugi Komprehensif, dan tabel Neraca yang seimbang.
+
+### Aturan Penamaan File (*SOP File Naming*):
+```text
+[TahunBulanTanggal]_[Jenis_Dokumen]_[Nama_Entitas/Keterangan].[csv|pdf]
+```
+Contoh:
+- `20261231_Laporan_Keuangan_PT_Maju_Bersama_Nusantara.csv`
+- `20261231_Laporan_Keuangan_PT_Maju_Bersama_Nusantara.pdf`
+
+### Lokasi Penyimpanan File Hasil Ekspor:
+- **Project Berbasis Struktur Klien (`ama-klien`)**:
+  Simpan langsung ke dalam subfolder arsip laporan resmi:  
+  `[Tahun]/05_Laporan_Final/02_Laporan_Keuangan_Tahunan/` (untuk tahunan/proyeksi)  
+  atau `[Tahun]/05_Laporan_Final/01_Laporan_Keuangan_Bulanan/` (untuk bulanan/berkala).
+- **Standalone Simulation (Tanpa Struktur Klien)**:
+  Simpan ke dalam folder `reports/` atau langsung pada direktori kerja aktif.
+
+*Catatan: Setelah ekspor berhasil, AMA wajib menyertakan link file yang dapat diklik (`file://...`) langsung di chat respons.*
+
+---
+
+## 4. Matriks Sambungan / Chaining ke Triggers Lainnya
 
 Setelah simulasi 15 kelompok akun selesai dibuat, sediakan panduan interaktif bagi pengguna untuk melanjutkan simulasi ke modul pajak spesifik:
 

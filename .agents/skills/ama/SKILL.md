@@ -57,6 +57,8 @@ Ketika pengguna meminta simulasi laporan keuangan (misalnya proyeksi tahun 2026)
    - `👉 Lanjut ke /ama-potput` : Hitung pemotongan PPh 23 dan PPh Final 4(2) atas pos sewa dan jasa operasional.
    - `👉 Lanjut ke /ama-ppn` : Hitung kewajiban PPN atas Peredaran Usaha (No 7) dan Pajak Masukan atas HPP (No 8).
    - `👉 Lanjut ke /ama-review` : Lakukan ekualisasi silang dan uji kepatuhan risiko SP2DK atas laporan keuangan tersebut.
+3. **Ekspor Otomatis Format CSV & PDF**:
+   Setiap laporan keuangan wajib diekspor ke dalam bentuk berkas fisik `.csv` dan `.pdf` secara otomatis menggunakan script otomasi (`scripts/export_financial_report.ps1`) sesuai standar penamaan berkas (`[TahunBulanTanggal]_[Jenis_Dokumen]_[Keterangan]`) dan dilampirkan link dokumen (`file://...`) pada respons obrolan.
 
 ---
 

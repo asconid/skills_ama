@@ -84,6 +84,7 @@ Ketika pertama kali melakukan inisialisasi proyek atau menerima perintah penyiap
    - Ingatkan pengguna dan tim klien mengenai **SOP Penamaan Berkas**:  
      Format: `[TahunBulanTanggal]_[Jenis_Dokumen]_[Keterangan]`  
      Contoh: `20260131_Nota_Kas_Kecil.pdf`, `20260210_Buku_Besar_Januari.xlsx`.
+   - **Ekspor Laporan Keuangan Final (CSV & PDF)**: Setiap laporan keuangan yang disusun untuk klien wajib diekspor ke format **CSV** dan **PDF** secara otomatis (menggunakan script `export_financial_report.ps1`) dan ditempatkan di `[Tahun]/05_Laporan_Final/02_Laporan_Keuangan_Tahunan/` (atau `01_Laporan_Keuangan_Bulanan/`) dengan tautan dokumen langsung (`file://...`) yang dapat dibuka klien.
 
 ---
 
