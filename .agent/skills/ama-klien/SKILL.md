@@ -61,19 +61,22 @@ Ketika pertama kali melakukan inisialisasi proyek atau menerima perintah penyiap
      ```
 
 2. **Project Multi Client (Kantor Konsultan / Banyak Klien)**:
-   - Jika workspace mengelola banyak klien, AMA akan membuatkan folder induk `Klien/` (atau `Clients/`), lalu membuat struktur template lengkap **di dalam masing-masing subfolder nama klien**:
+   - Jika workspace mengelola banyak klien, **TIDAK PERLU folder pembungkus `Klien/`**. Folder klien dibuat **LANGSUNG** di root/direktori kerja utama dengan format penomoran urut dua digit: `[nomor_urut]_[nama_klien]/` (contoh: `01_PT_Maju_Jaya/`, `02_CV_Berkah_Abadi/`):
      ```text
-     ├── Klien/
-     │   ├── PT_Maju_Jaya/
-     │   │   ├── 00_Dokumen_Permanen/
-     │   │   ├── 2025/
-     │   │   ├── 2026/
-     │   │   └── keterangan.txt
-     │   └── CV_Berkah_Abadi/
-     │       ├── 00_Dokumen_Permanen/
-     │       ├── 2025/
-     │       ├── 2026/
-     │       └── keterangan.txt
+     ├── 01_PT_Maju_Jaya/
+     │   ├── 00_Dokumen_Permanen/
+     │   │   ├── 01_Legalitas_dan_Perizinan/
+     │   │   └── 02_Struktur_dan_Kebijakan/
+     │   ├── 2025/
+     │   ├── 2026/
+     │   └── keterangan.txt
+     ├── 02_CV_Berkah_Abadi/
+     │   ├── 00_Dokumen_Permanen/
+     │   │   ├── 01_Legalitas_dan_Perizinan/
+     │   │   └── 02_Struktur_dan_Kebijakan/
+     │   ├── 2025/
+     │   ├── 2026/
+     │   └── keterangan.txt
      ```
 
 3. **Kepatuhan SOP File `keterangan.txt` & Penamaan Berkas**:

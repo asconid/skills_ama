@@ -34,7 +34,7 @@ Kumpulan *Agent Skills* profesional untuk konsultasi akuntansi dan perpajakan In
 5. **Kesiapan Sistem Coretax DJP**:
    Mendukung integrasi NIK/NITKU 16 digit, e-Bupot Unifikasi, dan e-Faktur Coretax.
 6. **Inisialisasi Otomatis Struktur Arsip Klien (Single & Multi Client)**:
-   Membangun struktur folder arsip kerja terstandarisasi (`Template_Struktur_client`) mencakup `00_Dokumen_Permanen`, administrasi kontrak, data mentah klien, kertas kerja akuntansi, arsip perpajakan, dan laporan final dengan panduan SOP file `keterangan.txt`. Langsung di root untuk mode *Single Client* atau per folder di bawah `Klien/` untuk mode *Multi Client*.
+   Membangun struktur folder arsip kerja terstandarisasi (`Template_Struktur_client`) mencakup `00_Dokumen_Permanen`, administrasi kontrak, data mentah klien, kertas kerja akuntansi, arsip perpajakan, dan laporan final dengan panduan SOP file `keterangan.txt`. Langsung di root untuk mode *Single Client* atau langsung per folder `[nomor_urut]_[nama_klien]/` (tanpa folder pembungkus Klien/) untuk mode *Multi Client*.
 
 ---
 

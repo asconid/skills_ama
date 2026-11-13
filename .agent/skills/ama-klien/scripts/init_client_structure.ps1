@@ -8,6 +8,9 @@ param(
     [string]$ClientName = "",
 
     [Parameter(Mandatory = $false)]
+    [string]$ClientNumber = "",
+
+    [Parameter(Mandatory = $false)]
     [string]$TargetDir = (Get-Location).Path,
 
     [Parameter(Mandatory = $false)]
@@ -30,8 +33,22 @@ if ($Mode -eq "MultiClient") {
     if ([string]::IsNullOrWhiteSpace($ClientName)) {
         throw "Parameter -ClientName wajib diisi untuk mode MultiClient (contoh: -ClientName 'PT_Maju_Jaya')."
     }
+
+    # Jika ClientNumber belum ditentukan, auto-detect nomor urut berikutnya dari folder yang ada
+    if ([string]::IsNullOrWhiteSpace($ClientNumber)) {
+        $existingClientDirs = Get-ChildItem -Path $TargetDir -Directory | Where-Object { $_.Name -match '^\d{2}_' }
+        $nextNum = ($existingClientDirs.Count + 1).ToString("D2")
+        $ClientNumber = $nextNum
+    } else {
+        # Format padding 2 digit jika angka murni
+        if ($ClientNumber -match '^\d+$') {
+            $ClientNumber = ([int]$ClientNumber).ToString("D2")
+        }
+    }
+
     $sanitizedName = $ClientName -replace '[\\/:*?"<>|]', '_'
-    $destRoot = Join-Path $TargetDir "Klien\$sanitizedName"
+    $folderName = "${ClientNumber}_${sanitizedName}"
+    $destRoot = Join-Path $TargetDir $folderName
 } else {
     # Single Client mode: subfolder template langsung di root TargetDir
     $destRoot = $TargetDir
@@ -39,7 +56,7 @@ if ($Mode -eq "MultiClient") {
 
 Write-Host "=== Inisialisasi Struktur Folder Klien AMA ===" -ForegroundColor Cyan
 Write-Host "Mode        : $Mode"
-Write-Host "Client Name : $(if ($ClientName) { $ClientName } else { '(Single Client Root)' })"
+Write-Host "Folder Klien: $(if ($Mode -eq 'MultiClient') { $folderName } else { '(Single Client Root)' })"
 Write-Host "Destination : $destRoot"
 
 if (-not (Test-Path $destRoot)) {
@@ -48,12 +65,11 @@ if (-not (Test-Path $destRoot)) {
 
 # 1. Salin 00_Dokumen_Permanen
 $permSrc = Join-Path $templatePath "00_Dokumen_Permanen"
-$permDest = Join-Path $destRoot "00_Dokumen_Permanen"
 if (Test-Path $permSrc) {
     Copy-Item -Path $permSrc -Destination $destRoot -Recurse -Force
 }
 
-# 2. Salin keterangan.txt root jika ada
+# 2. Salin keterangan.txt root
 $rootKet = Join-Path $templatePath "keterangan.txt"
 if (Test-Path $rootKet) {
     Copy-Item -Path $rootKet -Destination $destRoot -Force
@@ -65,7 +81,6 @@ foreach ($yr in $Years) {
     if (Test-Path $yrSrc) {
         Copy-Item -Path $yrSrc -Destination $destRoot -Recurse -Force
     } else {
-        # Duplikasi dari template 2026 jika tahun berbeda
         $fallbackYr = Join-Path $templatePath "2026"
         if (Test-Path $fallbackYr) {
             $destYrFolder = Join-Path $destRoot "$yr"
