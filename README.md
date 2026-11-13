@@ -16,6 +16,7 @@ Kumpulan *Agent Skills* profesional untuk konsultasi akuntansi dan perpajakan In
 | **`/ama-ppn`** | **PPN & e-Faktur Coretax** | PPN 11%/12%, pengkreditan Pajak Masukan (PM) vs Pajak Keluaran (PK), faktur pajak, WAPU pemerintah/BUMN, dan SPT Masa PPN. |
 | **`/ama-umkm`** | **Skema Khusus UMKM** | PPh Final 0,5% PP 55/2022, threshold omzet Rp 500 juta bebas pajak untuk WPOP, dan batasan jangka waktu fasilitas. |
 | **`/ama-review`** | **Audit & SP2DK Review** | Ekualisasi silang antar-SPT (Omzet vs PPN vs PPh Badan, Biaya vs Potput), deteksi potensi koreksi, dan penyusunan tanggapan SP2DK. |
+| **`/ama-klien`** | **Manajemen Klien & Advisory Memo** | Profiling entitas/klien baru, penyusunan Tax Advisory Memo resmi untuk direksi/klien, serta pendampingan hearing SP2DK ke KPP. |
 | **`/ama-help`** | **Pusat Bantuan & Direktori** | Panduan navigasi seluruh trigger, contoh prompt pemanggilan, dan fitur unggulan. |
 
 ---
@@ -42,6 +43,7 @@ Kumpulan *Agent Skills* profesional untuk konsultasi akuntansi dan perpajakan In
 │   ├── ama/
 │   ├── ama-badan/
 │   ├── ama-help/
+│   ├── ama-klien/
 │   ├── ama-potput/
 │   ├── ama-pph21/
 │   ├── ama-ppn/

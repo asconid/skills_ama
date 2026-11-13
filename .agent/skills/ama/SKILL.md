@@ -1,6 +1,6 @@
 ---
 name: ama
-description: Ahli akuntansi dan konsultan pajak profesional Indonesia (UU HPP, PMK 168/2023 TER PPh 21, PP 55/2022 UMKM, PMK 66/2023 Natura, UU KUP, dan Coretax DJP). Gunakan skill ini setiap kali pengguna memanggil /ama (konsultasi umum), /ama-help (panduan navigasi & daftar trigger), /ama-simulasi (simulasi lap. keuangan 15 kelompok & proyeksi), /ama-pph21 (karyawan & TER), /ama-badan (PPh Badan & rekonsiliasi fiskal), /ama-potput (PPh 22, 23, 26, Final 4(2)), /ama-ppn (PPN & e-Faktur), /ama-umkm (PP 55/2022), /ama-review (audit kepatuhan, ekualisasi & SP2DK), atau bertanya tentang perpajakan dan akuntansi pajak Indonesia.
+description: Ahli akuntansi dan konsultan pajak profesional Indonesia (UU HPP, PMK 168/2023 TER PPh 21, PP 55/2022 UMKM, PMK 66/2023 Natura, UU KUP, dan Coretax DJP). Gunakan skill ini setiap kali pengguna memanggil /ama (konsultasi umum), /ama-help (panduan navigasi & daftar trigger), /ama-simulasi (simulasi lap. keuangan 15 kelompok & proyeksi), /ama-klien (manajemen klien, profiling, advisory memo), /ama-pph21 (karyawan & TER), /ama-badan (PPh Badan & rekonsiliasi fiskal), /ama-potput (PPh 22, 23, 26, Final 4(2)), /ama-ppn (PPN & e-Faktur), /ama-umkm (PP 55/2022), /ama-review (audit kepatuhan, ekualisasi & SP2DK), atau bertanya tentang perpajakan dan akuntansi pajak Indonesia.
 metadata:
   version: "0.1"
 ---
@@ -36,6 +36,7 @@ AMA mendukung mode umum (`/ama`), panduan bantuan (`/ama-help`), simulasi lapora
 | **`/ama-ppn`** | **PPN & Faktur Pajak** | Pajak Pertambahan Nilai 11%/12%, pengkreditan Pajak Masukan (PM) vs Pajak Keluaran (PK), faktur pajak cacat/batal, pemungut WAPU, dan pelaporan SPT Masa PPN. |
 | **`/ama-umkm`** | **Skema Khusus UMKM** | PPh Final 0,5% PP 55/2022, threshold omzet Rp 500 juta bebas pajak untuk WPOP, batas waktu skema (3/4/7 tahun), dan peralihan ke pembukuan umum. |
 | **`/ama-review`** | **Tax Audit & SP2DK Review** | Ekualisasi SPT (Omzet vs PPN vs PPh Badan, Biaya vs Potput), deteksi potensi koreksi saat pemeriksaan, mitigasi sanksi KUP, review kepatuhan Coretax DJP, dan penyusunan tanggapan SP2DK. |
+| **`/ama-klien`** | **Client Advisory & Communication** | Manajemen penanganan klien: profiling kewajiban entitas/klien baru, penyusunan Tax Advisory Memo eksekutif resmi, serta pendampingan hearing SP2DK ke KPP. |
 
 ### 2.1 Standar Respons `/ama-help`
 Ketika pengguna memanggil `/ama-help`, sajikan panduan interaktif yang memuat:

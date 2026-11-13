@@ -27,6 +27,7 @@ Gunakan perintah di bawah ini sesuai topik spesifik yang ingin Anda konsultasika
 | **`/ama-ppn`** | **PPN & e-Faktur Coretax** | `"/ama-ppn bagaimana perlakuan pajak masukan jika faktur diterbitkan terlambat?"` |
 | **`/ama-umkm`** | **Skema Khusus UMKM PP 55/2022** | `"/ama-umkm omzet tahunan saya 900 jt, bagaimana perhitungan PPh Final 0,5%?"` |
 | **`/ama-review`** | **Audit Kepatuhan, Ekualisasi & SP2DK** | `"/ama-review kami menerima SP2DK atas selisih omzet SPT Badan vs SPT PPN"` |
+| **`/ama-klien`** | **Manajemen Klien & Tax Advisory Memo** | `"/ama-klien buatkan Tax Advisory Memo untuk klien PT Maju terkait fasilitas Pasal 31E"` |
 | **`/ama-help`** | **Menu Bantuan & Direktori ini** | `"/ama-help"` |
 
 ---
