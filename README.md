@@ -1,4 +1,6 @@
-# AMA - Asisten Manajemen & Akuntan Pajak Indonesia (v0.1)
+# AMA - Asisten Manajemen & Akuntan Pajak Indonesia (v1.0.0)
+
+**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Kumpulan *Agent Skills* profesional untuk konsultasi akuntansi dan perpajakan Indonesia berbasis regulasi termutakhir (pasca-UU Harmonisasi Peraturan Perpajakan / UU HPP, PMK 168/2023 TER PPh 21, PP 55/2022 UMKM, PMK 66/2023 Natura, UU KUP, dan Coretax DJP).
 
@@ -63,3 +65,4 @@ Kumpulan *Agent Skills* profesional untuk konsultasi akuntansi dan perpajakan In
 
 ## 📄 Lisensi
 Hak Cipta © 2026 ASCON.
+

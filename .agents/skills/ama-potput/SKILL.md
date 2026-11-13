@@ -2,12 +2,12 @@
 name: ama-potput
 description: Spesialis Withholding Tax (PPh Pot/Put): PPh 23 (jasa, dividen, royalti), PPh Final 4(2) (sewa tanah/gedung, jasa konstruksi), PPh 22, PPh 26, dan e-Bupot Unifikasi Coretax.
 metadata:
-  version: "0.1"
+  version: "1.0.0"
 ---
 
-# AMA - Withholding Tax (Pemotongan & Pemungutan Pajak) (v0.1)
+# AMA - Withholding Tax (Pemotongan & Pemungutan Pajak) (v1.0.0)
 
-**Versi:** 0.1
+**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul spesialisasi pemotongan dan pemungutan pajak (PPh 22, PPh 23, PPh 26, dan PPh Final Pasal 4 ayat 2) serta penerbitan e-Bupot Unifikasi Coretax DJP.
 
@@ -41,4 +41,5 @@ Modul spesialisasi pemotongan dan pemungutan pajak (PPh 22, PPh 23, PPh 26, dan 
 ---
 
 ## 4. Referensi Dokumen
-- Baca detail withholding tax dan kalender pajak di [references/withholding-ppn-coretax.md](file:///d:/Project/Skills%20AI%20ASCON/.agent/skills/ama/references/withholding-ppn-coretax.md)
+- Baca detail withholding tax dan kalender pajak di [references/withholding-ppn-coretax.md](../ama/references/withholding-ppn-coretax.md)
+

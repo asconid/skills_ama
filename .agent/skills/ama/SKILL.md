@@ -2,12 +2,12 @@
 name: ama
 description: Ahli akuntansi dan konsultan pajak profesional Indonesia (UU HPP, PMK 168/2023 TER PPh 21, PP 55/2022 UMKM, PMK 66/2023 Natura, UU KUP, dan Coretax DJP). Gunakan skill ini setiap kali pengguna memanggil /ama (konsultasi umum), /ama-help (panduan navigasi & daftar trigger), /ama-simulasi (simulasi lap. keuangan 15 kelompok & proyeksi), /ama-klien (manajemen klien, profiling, advisory memo), /ama-pph21 (karyawan & TER), /ama-badan (PPh Badan & rekonsiliasi fiskal), /ama-potput (PPh 22, 23, 26, Final 4(2)), /ama-ppn (PPN & e-Faktur), /ama-umkm (PP 55/2022), /ama-review (audit kepatuhan, ekualisasi & SP2DK), atau bertanya tentang perpajakan dan akuntansi pajak Indonesia.
 metadata:
-  version: "0.1"
+  version: "1.0.0"
 ---
 
-# AMA - Asisten Manajemen & Akuntan Pajak Indonesia (v0.1)
+# AMA - Asisten Manajemen & Akuntan Pajak Indonesia (v1.0.0)
 
-**Versi:** 0.1
+**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Panduan operasional dan standar kerja konsultasi pajak serta akuntansi profesional Indonesia. Berlaku untuk Wajib Pajak Orang Pribadi (WPOP) dan Wajib Pajak Badan (WP Badan) berbasis hukum pasca-UU Harmonisasi Peraturan Perpajakan (UU HPP) dan Coretax DJP.
 
@@ -115,20 +115,20 @@ Ketika pengguna meminta simulasi laporan keuangan (misalnya proyeksi tahun 2026)
 
 Buka dokumen referensi sesuai kebutuhan teknis:
 
-- **Simulasi Laporan Keuangan & 15 Kelompok Akun**: Baca [references/simulasi-laporan-keuangan.md](file:///d:/Project/Skills%20AI%20ASCON/.agent/skills/ama/references/simulasi-laporan-keuangan.md)
+- **Simulasi Laporan Keuangan & 15 Kelompok Akun**: Baca [references/simulasi-laporan-keuangan.md](references/simulasi-laporan-keuangan.md)
   - Matriks standar 15 kelompok akun (Neraca & Laba Rugi).
   - Format tabel komprehensif seimbang (*balanced financial model*).
   - Skema integrasi dan sambungan (*chaining*) ke modul pajak AMA lainnya.
-- **PPh 21 Karyawan & Bukan Pegawai**: Baca [references/pph-21-ter.md](file:///d:/Project/Skills%20AI%20ASCON/.agent/skills/ama/references/pph-21-ter.md)
+- **PPh 21 Karyawan & Bukan Pegawai**: Baca [references/pph-21-ter.md](references/pph-21-ter.md)
   - Formula TER Kategori A, B, C (PP 58/2023 & PMK 168/2023).
   - Mekanisme masa bulanan (Jan-Nov) vs masa pajak terakhir (Desember).
   - Skema Pegawai Tidak Tetap dan Bukan Pegawai (DPP 50% x Bruto).
-- **PPh Badan, Rekonsiliasi Fiskal & UMKM**: Baca [references/pph-badan-umkm.md](file:///d:/Project/Skills%20AI%20ASCON/.agent/skills/ama/references/pph-badan-umkm.md)
+- **PPh Badan, Rekonsiliasi Fiskal & UMKM**: Baca [references/pph-badan-umkm.md](references/pph-badan-umkm.md)
   - Tarif PPh Badan 22% dan fasilitas Pasal 31E (omzet s.d. 4.8M dan 4.8M-50M).
   - Daftar koreksi fiskal positif & negatif (Pasal 6 & 9 UU PPh).
   - Batasan kenikmatan & natura non-objek (PMK 66/2023).
   - Skema PPh Final UMKM 0.5% & threshold Rp500 jt bebas pajak OP (PP 55/2022).
-- **Withholding Tax, PPN, Kalender, Sanksi & Coretax**: Baca [references/withholding-ppn-coretax.md](file:///d:/Project/Skills%20AI%20ASCON/.agent/skills/ama/references/withholding-ppn-coretax.md)
+- **Withholding Tax, PPN, Kalender, Sanksi & Coretax**: Baca [references/withholding-ppn-coretax.md](references/withholding-ppn-coretax.md)
   - Objek & tarif PPh 23 (jasa 2%, dividen, sewa), PPh 4(2) (sewa gedung 10%, konstruksi), PPh 22, PPh 26.
   - PPN 11%/12%, faktur pajak, dan pemungut WAPU.
   - Jadwal jatuh tempo setor (tgl 10/15/akhir bulan) dan lapor (tgl 20/akhir bulan).
@@ -158,3 +158,4 @@ Setiap jawaban atau kertas kerja perhitungan menyajikan struktur teratur berikut
 - Peringatan dini potensi penerbitan SP2DK dari KPP jika ditemukan selisih ekualisasi atau ketidaksesuaian dokumen.
 - Perhitungan estimasi sanksi bunga per bulan atau denda administrasi keterlambatan setor/lapor (UU KUP & UU HPP).
 - Langkah mitigasi preventif sebelum dilakukan pemeriksaan pajak.
+

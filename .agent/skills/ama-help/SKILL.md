@@ -2,12 +2,12 @@
 name: ama-help
 description: Panduan bantuan navigasi komprehensif, daftar seluruh slash command / trigger AMA, contoh prompt penggunaan, dan kapabilitas konsultasi akuntansi pajak.
 metadata:
-  version: "0.1"
+  version: "1.0.0"
 ---
 
-# AMA - Pusat Bantuan & Direktori Perintah (v0.1)
+# AMA - Pusat Bantuan & Direktori Perintah (v1.0.0)
 
-**Versi:** 0.1
+**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Panduan lengkap penggunaan AMA (Asisten Manajemen & Akuntan Pajak Indonesia) untuk membantu Wajib Pajak Orang Pribadi dan Badan menavigasi konsultasi akuntansi dan perpajakan.
 
@@ -38,3 +38,4 @@ Gunakan perintah di bawah ini sesuai topik spesifik yang ingin Anda konsultasika
 2. **Jurnal Akuntansi Pembukuan**: Menyertakan pencatatan debit/kredit (*Beban Pajak, Utang PPh, Kredit Pajak*).
 3. **Peringatan Otomatis Keterkaitan Lintas Pajak (*Cross-Tax Alert*)**: Jika transaksi menyangkut pajak lain di luar trigger yang dipanggil, AMA akan mengingatkan terlebih dahulu di awal tanggapan.
 4. **Kepatuhan Coretax DJP & UU HPP**: Berbasis PMK 168/2023 (TER PPh 21), PMK 66/2023 (Natura), PP 55/2022 (UMKM), dan UU Cipta Kerja/HPP.
+

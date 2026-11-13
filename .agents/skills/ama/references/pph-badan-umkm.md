@@ -75,3 +75,4 @@ Laba Komersial disesuaikan menjadi Penghasilan Neto Fiskal melalui:
   - Koperasi, CV, Firma, BUMDes, PT Perorangan: Maksimal 4 tahun pajak.
   - PT Konvensional: Maksimal 3 tahun pajak.
   Setelah melewati jangka waktu, wajib menggunakan pembukuan dan tarif umum Pasal 17 / Pasal 31E.
+

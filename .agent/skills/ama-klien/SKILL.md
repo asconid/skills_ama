@@ -2,12 +2,12 @@
 name: ama-klien
 description: Spesialis penanganan klien akuntansi & perpajakan: inisialisasi struktur folder klien (single/multi client), profiling entitas/kewajiban klien baru, penyusunan Tax Advisory Memo resmi untuk direksi/klien, serta materi pendampingan hearing SP2DK ke KPP.
 metadata:
-  version: "0.1"
+  version: "1.0.0"
 ---
 
-# AMA - Manajemen & Komunikasi Klien (v0.1)
+# AMA - Manajemen & Komunikasi Klien (v1.0.0)
 
-**Versi:** 0.1
+**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul operasional konsultan pajak untuk mengelola hubungan klien (*client handling*), mulai dari inisialisasi struktur folder arsip kerja (Single Client vs Multi Client), profiling kewajiban perpajakan entitas baru, penerjemahan aturan teknis menjadi memorandum eksekutif (*Tax Advisory Memo*), hingga pendampingan klarifikasi (*hearing*) SP2DK ke KPP.
 
@@ -23,7 +23,7 @@ Modul operasional konsultan pajak untuk mengelola hubungan klien (*client handli
 
 ## 2. Inisialisasi Struktur Folder Klien (Single Client vs Multi Client)
 
-Ketika pertama kali melakukan inisialisasi proyek atau menerima perintah penyiapan arsip klien baru (`/ama-klien init`, *"inisialisasi project klien"*, dsb.), AMA **WAJIB** menerapkan aturan pembuatan struktur folder berbasis [Template_Struktur_client](file:///d:/Project/Skills%20AI%20ASCON/Template_Struktur_client):
+Ketika pertama kali melakukan inisialisasi proyek atau menerima perintah penyiapan arsip klien baru (`/ama-klien init`, *"inisialisasi project klien"*, dsb.), AMA **WAJIB** menerapkan aturan pembuatan struktur folder berbasis [Template_Struktur_client](assets/Template_Struktur_client):
 
 ### Aturan Penentuan Tipe Proyek:
 1. **Project Single Client (Satu Perusahaan Khusus)**:
@@ -180,4 +180,5 @@ Gunakan mode ini ketika klien menerima Surat Permintaan Penjelasan atas Data dan
 - Ambil hasil proyeksi dari **`/ama-simulasi`** untuk menyusun proposal *Financial & Tax Health Check*.
 - Ambil hasil rekonsiliasi dari **`/ama-badan`** untuk diubah menjadi *Executive Tax Memo*.
 - Ambil temuan ekualisasi dari **`/ama-review`** untuk menyusun materi jawaban SP2DK klien.
-- Gunakan skrip pendukung: [scripts/init_client_structure.ps1](file:///d:/Project/Skills%20AI%20ASCON/.agent/skills/ama-klien/scripts/init_client_structure.ps1)
+- Gunakan skrip pendukung: [scripts/init_client_structure.ps1](scripts/init_client_structure.ps1)
+

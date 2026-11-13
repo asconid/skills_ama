@@ -88,3 +88,4 @@ $$\text{PPh 21 Sebulan} = \text{Penghasilan Bruto Sebulan} \times \text{Tarif TE
    - Tarif: Pasal 17 ayat (1) huruf a UU HPP atas DPP kumulatif tahun berjalan.
 3. **Dewan Komisaris Non-Pegawai**:
    - Dikenakan TER Bulanan atas penghasilan bruto.
+

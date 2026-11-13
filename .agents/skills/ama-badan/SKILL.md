@@ -2,12 +2,12 @@
 name: ama-badan
 description: Spesialis PPh Badan tarif 22%, fasilitas pengurangan tarif Pasal 31E UU PPh, koreksi fiskal positif & negatif, laba komersial vs fiskal, kompensasi rugi, dan kredit pajak.
 metadata:
-  version: "0.1"
+  version: "1.0.0"
 ---
 
-# AMA - PPh Badan & Rekonsiliasi Fiskal (v0.1)
+# AMA - PPh Badan & Rekonsiliasi Fiskal (v1.0.0)
 
-**Versi:** 0.1
+**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul spesialisasi penghitungan PPh Badan tahunan, penerapan fasilitas Pasal 31E UU PPh, koreksi fiskal (positif/negatif), dan kredit pajak (PPh 22, 23, 25).
 
@@ -40,4 +40,5 @@ Modul spesialisasi penghitungan PPh Badan tahunan, penerapan fasilitas Pasal 31E
 ---
 
 ## 3. Referensi Dokumen
-- Baca panduan lengkap rekonsiliasi fiskal dan Pasal 31E di [references/pph-badan-umkm.md](file:///d:/Project/Skills%20AI%20ASCON/.agent/skills/ama/references/pph-badan-umkm.md)
+- Baca panduan lengkap rekonsiliasi fiskal dan Pasal 31E di [references/pph-badan-umkm.md](../ama/references/pph-badan-umkm.md)
+

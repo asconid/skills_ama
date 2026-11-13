@@ -183,7 +183,7 @@ $htmlContent = @"
 </div>
 
 <div class="footer">
-    <span>Dihasilkan secara otomatis oleh AMA (Asisten Manajemen & Akuntan Pajak Indonesia) v0.1</span>
+    <span>Dihasilkan secara otomatis oleh AMA (Asisten Manajemen & Akuntan Pajak Indonesia) v1.0.0</span>
     <span>Tanggal Cetak: $(Get-Date -Format 'dd/MM/yyyy HH:mm:ss') WIB</span>
 </div>
 
@@ -222,3 +222,4 @@ return @{
     pdf = $pdfPath
     html = $htmlPath
 }
+

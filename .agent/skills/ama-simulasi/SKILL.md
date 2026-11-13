@@ -2,12 +2,12 @@
 name: ama-simulasi
 description: Simulasi proyeksi laporan keuangan komprehensif (Laba Rugi & Neraca 15 kelompok akun baku) dan integrasi lanjutan (trigger chaining) ke modul analisis pajak AMA.
 metadata:
-  version: "0.1"
+  version: "1.0.0"
 ---
 
-# AMA - Simulasi Laporan Keuangan & Matriks 15 Kelompok Akun (v0.1)
+# AMA - Simulasi Laporan Keuangan & Matriks 15 Kelompok Akun (v1.0.0)
 
-**Versi:** 0.1
+**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul khusus untuk menyusun simulasi dan proyeksi laporan keuangan (Laba Rugi & Neraca yang seimbang) berdasarkan **15 kelompok akun standar**, serta menyediakan sambungan otomatis (*chaining*) ke modul analisis perpajakan AMA lainnya.
 
@@ -75,4 +75,5 @@ Ketik perintah berikut untuk menganalisis angka hasil simulasi di atas:
 ---
 
 ## 4. Referensi Dokumen
-- Baca panduan lengkap simulasi di [references/simulasi-laporan-keuangan.md](file:///d:/Project/Skills%20AI%20ASCON/.agent/skills/ama/references/simulasi-laporan-keuangan.md)
+- Baca panduan lengkap simulasi di [references/simulasi-laporan-keuangan.md](../ama/references/simulasi-laporan-keuangan.md)
+

@@ -127,3 +127,4 @@ Setelah simulasi 15 kelompok akun selesai dibuat, sediakan panduan interaktif ba
 6. **Lanjut ke `/ama-review` (Ekualisasi Pajak & Audit Readiness)**:
    - Lakukan ekualisasi silang: Omzet Laba Rugi vs Penyerahan PPN, Biaya Tenaga Kerja vs Objek PPh 21, Biaya Jasa vs Objek PPh 23.
    - Simulasikan mitigasi risiko SP2DK dari KPP sebelum tahun buku berakhir.
+

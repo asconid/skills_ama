@@ -88,3 +88,4 @@ Implementasi Pembaruan Sistem Inti Administrasi Perpajakan (PSIAP / Coretax):
 3. **SPT Masa Unifikasi PPh & PPN Terpadu**:
    - Otomatisasi pre-populated data faktur dan bukti potong.
    - Bukti potong elektronik langsung mengalir ke SPT Masa dan SPT Tahunan penerima penghasilan secara real-time.
+
