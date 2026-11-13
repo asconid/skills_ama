@@ -43,15 +43,22 @@ $repoName = "skills_ama"
 $repoUrl = "https://github.com/$repoOwner/$repoName"
 $rawUrl = "https://raw.githubusercontent.com/$repoOwner/$repoName/main/.agent/skills/ama/SKILL.md"
 $commitApi = "https://api.github.com/repos/$repoOwner/$repoName/commits/main"
+$tagsApi = "https://api.github.com/repos/$repoOwner/$repoName/tags"
 
 $remoteVersion = $localVersion
 $latestCommit = $null
 $isUpToDate = $true
 
 try {
-    $rawContent = (Invoke-WebRequest -Uri $rawUrl -UseBasicParsing -TimeoutSec 7).Content
-    if ($rawContent -match 'version:\s*"([^"]+)"') {
-        $remoteVersion = $matches[1]
+    # Prioritaskan GitHub Tags API untuk pembacaan instan tanpa jeda cache CDN
+    $tags = Invoke-RestMethod -Uri $tagsApi -Headers @{"User-Agent"="PowerShell"} -TimeoutSec 7
+    if ($tags -and $tags.Count -gt 0) {
+        $remoteVersion = $tags[0].name.TrimStart('v')
+    } else {
+        $rawContent = (Invoke-WebRequest -Uri $rawUrl -UseBasicParsing -TimeoutSec 7).Content
+        if ($rawContent -match 'version:\s*"([^"]+)"') {
+            $remoteVersion = $matches[1]
+        }
     }
     
     $commitData = Invoke-RestMethod -Uri $commitApi -Headers @{"User-Agent"="PowerShell"} -TimeoutSec 7
