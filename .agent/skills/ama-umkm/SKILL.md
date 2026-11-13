@@ -2,12 +2,12 @@
 name: ama-umkm
 description: Spesialis skema UMKM PP 55/2022: PPh Final 0,5%, threshold omzet Rp 500 juta bebas pajak untuk WPOP, batasan jangka waktu fasilitas, dan komparasi dengan tarif umum.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
-# AMA - Skema Khusus Pajak UMKM (PP 55/2022) (v1.0.0)
+# AMA - Skema Khusus Pajak UMKM (PP 55/2022) (v1.1.0)
 
-**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
+**Versi:** 1.1.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul spesialisasi perpajakan pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) berdasarkan Peraturan Pemerintah No. 55 Tahun 2022.
 

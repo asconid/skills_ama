@@ -2,12 +2,12 @@
 name: ama-klien
 description: Spesialis penanganan klien akuntansi & perpajakan: inisialisasi struktur folder klien (single/multi client), profiling entitas/kewajiban klien baru, penyusunan Tax Advisory Memo resmi untuk direksi/klien, serta materi pendampingan hearing SP2DK ke KPP.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
-# AMA - Manajemen & Komunikasi Klien (v1.0.0)
+# AMA - Manajemen & Komunikasi Klien (v1.1.0)
 
-**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
+**Versi:** 1.1.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul operasional konsultan pajak untuk mengelola hubungan klien (*client handling*), mulai dari inisialisasi struktur folder arsip kerja (Single Client vs Multi Client), profiling kewajiban perpajakan entitas baru, penerjemahan aturan teknis menjadi memorandum eksekutif (*Tax Advisory Memo*), hingga pendampingan klarifikasi (*hearing*) SP2DK ke KPP.
 

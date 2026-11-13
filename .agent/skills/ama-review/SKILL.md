@@ -2,12 +2,12 @@
 name: ama-review
 description: Spesialis audit kepatuhan pajak, ekualisasi SPT (Omzet vs PPN vs PPh Badan, Biaya vs Potput), deteksi potensi koreksi pemeriksaan, analisis risiko SP2DK KPP, dan review Coretax DJP.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
-# AMA - Audit Kepatuhan, Ekualisasi & Tanggapan SP2DK (v1.0.0)
+# AMA - Audit Kepatuhan, Ekualisasi & Tanggapan SP2DK (v1.1.0)
 
-**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
+**Versi:** 1.1.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul spesialisasi *Tax Health Check*, ekualisasi antar-laporan perpajakan, penanganan Surat Permintaan Penjelasan atas Data dan/atau Keterangan (SP2DK), dan audit kepatuhan berbasis sistem Coretax DJP.
 

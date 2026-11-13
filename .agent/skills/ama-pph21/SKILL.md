@@ -2,12 +2,12 @@
 name: ama-pph21
 description: Spesialis perhitungan PPh 21 TER (Kategori A, B, C PP 58/2023 & PMK 168/2023), masa Desember, pegawai tetap, bukan pegawai/freelancer, natura PMK 66/2023, THR & bonus.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
-# AMA - PPh Pasal 21 & Ketenagakerjaan (v1.0.0)
+# AMA - PPh Pasal 21 & Ketenagakerjaan (v1.1.0)
 
-**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
+**Versi:** 1.1.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul spesialisasi komputasi dan kepatuhan PPh Pasal 21 berdasarkan PP 58/2023, PMK 168/2023 (Tarif Efektif Rata-Rata / TER), dan aturan natura PMK 66/2023.
 

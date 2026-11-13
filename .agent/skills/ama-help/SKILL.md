@@ -2,12 +2,12 @@
 name: ama-help
 description: Panduan bantuan navigasi komprehensif, daftar seluruh slash command / trigger AMA, contoh prompt penggunaan, dan kapabilitas konsultasi akuntansi pajak.
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
-# AMA - Pusat Bantuan & Direktori Perintah (v1.0.0)
+# AMA - Pusat Bantuan & Direktori Perintah (v1.1.0)
 
-**Versi:** 1.0.0 (Format: [Nomor Release].[Major Update].[Minor Update])
+**Versi:** 1.1.0 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Panduan lengkap penggunaan AMA (Asisten Manajemen & Akuntan Pajak Indonesia) untuk membantu Wajib Pajak Orang Pribadi dan Badan menavigasi konsultasi akuntansi dan perpajakan.
 

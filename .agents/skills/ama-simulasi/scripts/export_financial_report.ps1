@@ -183,7 +183,7 @@ $htmlContent = @"
 </div>
 
 <div class="footer">
-    <span>Dihasilkan secara otomatis oleh AMA (Asisten Manajemen & Akuntan Pajak Indonesia) v1.0.0</span>
+    <span>Dihasilkan secara otomatis oleh AMA (Asisten Manajemen & Akuntan Pajak Indonesia) v1.1.0</span>
     <span>Tanggal Cetak: $(Get-Date -Format 'dd/MM/yyyy HH:mm:ss') WIB</span>
 </div>
 
