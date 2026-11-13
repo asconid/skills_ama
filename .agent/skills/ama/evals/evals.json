@@ -1,0 +1,23 @@
+{
+  "skill_name": "ama",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Karyawan PT Cahaya Abadi bernama Budi status menikah 1 anak (K/1), gaji pokok Rp10.000.000/bulan, tunjangan transport Rp1.500.000/bulan, BPJS Kesehatan dibayar kantor 4%, JKK 0.24%, JKM 0.3%. Iuran JHT dibayar sendiri 2%, iuran pensiun dibayar sendiri 1%. Pada bulan Mei dia menerima bonus Rp15.000.000. Hitung PPh 21 Budi untuk bulan normal, bulan Mei (ada bonus), dan perhitungan rekonsiliasi masa Desember jika penghasilan tetap sama sepanjang tahun.",
+      "expected_output": "Perhitungan PPh 21 menggunakan TER Kategori B untuk masa Januari-November dan tarif progresif Pasal 17 UU HPP pada masa Desember, lengkap dengan dasar hukum PP 58/2023 dan PMK 168/2023.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "PT Maju Bersama adalah perusahaan manufaktur dengan peredaran bruto tahun 2024 sebesar Rp12.000.000.000. Laba bersih komersial sebelum pajak sebesar Rp1.500.000.000. Dalam beban operasional terdapat: 1) Biaya seragam satpam dan APD pabrik Rp30.000.000, 2) Biaya beras dan makan bersama seluruh staf di kantor Rp50.000.000, 3) Biaya rekreasi keluarga direksi Rp40.000.000, 4) Biaya entertainment relasi bisnis Rp60.000.000 tanpa daftar nominatif, 5) Pendapatan sewa ruko Rp100.000.000 (telah dipotong PPh Final 4(2)). Lakukan rekonsiliasi fiskal dan hitung PPh Badan terutang dengan fasilitas Pasal 31E.",
+      "expected_output": "Kertas kerja rekonsiliasi fiskal positif dan negatif (termasuk penerapan aturan natura PMK 66/2023) dan perhitungan PPh Badan tarif 22% dengan fasilitas Pasal 31E (proporsional 4.8M / 12M).",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Perusahaan kami menyewa kantor dari PT Properti Prima senilai Rp150.000.000 (belum termasuk PPN) untuk masa sewa 1 tahun, dan menggunakan jasa konsultan IT dari CV Digital Nusantara senilai Rp25.000.000 (memiliki NPWP). Berapa PPh yang harus dipotong, berapa PPN yang harus dibayar, bagaimana jurnal akuntansinya, serta apa kewajiban pelaporannya di Coretax?",
+      "expected_output": "Penghitungan PPh Final Pasal 4 ayat (2) atas sewa gedung (10%), PPh 23 atas jasa IT (2%), PPN 11%, ayat jurnal lengkap, dan prosedur pelaporan e-Bupot Unifikasi Coretax DJP.",
+      "files": []
+    }
+  ]
+}
