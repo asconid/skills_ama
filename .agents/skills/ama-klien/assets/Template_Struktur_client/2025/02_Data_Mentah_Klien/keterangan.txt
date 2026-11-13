@@ -1,0 +1,1 @@
+Folder untuk menyimpan semua data asli dari klien yang belum diolah (mutasi, nota, faktur).

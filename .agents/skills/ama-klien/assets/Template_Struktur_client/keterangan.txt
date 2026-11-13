@@ -1,0 +1,14 @@
+PANDUAN STRUKTUR FOLDER KLIEN
+-----------------------------
+Folder ini adalah pusat penyimpanan arsip klien. Harap patuhi struktur berikut untuk menyimpan file:
+
+1. [00_Dokumen_Permanen]: Simpan dokumen legalitas dasar (Akta, NPWP, SK) dan struktur organisasi di sini. File di sini berlaku lintas tahun.
+2. [Tahun] -> [01_Administrasi_dan_Kontrak_Tahunan]: Simpan Surat Perikatan dan SPK/Kontrak untuk tahun yang bersangkutan.
+3. [Tahun] -> [02_Data_Mentah_Klien]: Simpan semua file mentah dari klien (Mutasi bank, nota, bon bensin, slip gaji, dll). *Jangan campur dengan kertas kerja*.
+4. [Tahun] -> [03_Kertas_Kerja_Akuntansi]: Simpan file spreadsheet yang sedang dikerjakan oleh tim (Jurnal, rekonsiliasi, daftar penyusutan).
+5. [Tahun] -> [04_Arsip_Perpajakan]: Simpan bukti potong, BPE, dan file SPT.
+6. [Tahun] -> [05_Laporan_Final]: Simpan HANYA laporan yang sudah final/disetujui, diutamakan berformat PDF.
+
+SOP PENAMAAN FILE:
+Gunakan format: [TahunBulanTanggal]_[Jenis_Dokumen]_[Keterangan]
+Contoh: 20260131_Nota_Kas_Kecil.pdf

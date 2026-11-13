@@ -1,0 +1,1 @@
+Folder untuk menyimpan file spreadsheet yang digunakan untuk proses penyusunan laporan keuangan.

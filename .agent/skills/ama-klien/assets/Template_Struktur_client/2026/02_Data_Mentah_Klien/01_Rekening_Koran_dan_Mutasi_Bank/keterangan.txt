@@ -1,0 +1,1 @@
+Khusus untuk rekening koran bulanan dari klien (PDF, Excel, CSV).

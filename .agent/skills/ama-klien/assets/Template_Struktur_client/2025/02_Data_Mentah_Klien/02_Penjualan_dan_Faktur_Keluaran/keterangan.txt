@@ -1,0 +1,1 @@
+Bukti pendapatan klien (faktur penjualan, tagihan, rekap POS, nota konsinyasi).
