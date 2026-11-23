@@ -2,12 +2,12 @@
 name: ama-badan
 description: Spesialis PPh Badan tarif 22%, fasilitas pengurangan tarif Pasal 31E UU PPh, koreksi fiskal positif & negatif, laba komersial vs fiskal, kompensasi rugi, dan kredit pajak.
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
-# AMA - PPh Badan & Rekonsiliasi Fiskal (v1.1.0)
+# AMA - PPh Badan & Rekonsiliasi Fiskal (v1.1.1)
 
-**Versi:** 1.1.0 (Format: [Nomor Release].[Major Update].[Minor Update])
+**Versi:** 1.1.1 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul spesialisasi penghitungan PPh Badan tahunan, penerapan fasilitas Pasal 31E UU PPh, koreksi fiskal (positif/negatif), dan kredit pajak (PPh 22, 23, 25).
 
@@ -36,6 +36,9 @@ Modul spesialisasi penghitungan PPh Badan tahunan, penerapan fasilitas Pasal 31E
    - Omzet s.d. Rp 4,8 Miliar: Fasilitas 50% x 22% = 11% x Seluruh PKP.
    - Omzet Rp 4,8 Miliar s.d. Rp 50 Miliar: Sebagian PKP mendapat fasilitas (proporsi 4,8 M / Omzet), sisa PKP tarif normal 22%.
    - Omzet di atas Rp 50 Miliar: Seluruh PKP kena tarif normal 22%.
+6. **Prioritas Pencegahan Pemeriksaan Pajak**:
+   - Evaluasi kewajaran rasio laba dan pajak terhadap omzet (*CTTOR*) dibandingkan benchmark KLU DJP.
+   - Kelola proyeksi angsuran PPh Pasal 25 dan kredit pajak agar menghindari status SPT Tahunan Lebih Bayar tanpa kesiapan audit penuh, serta siapkan dokumentasi pembuktian yang kuat apabila perusahaan membukukan rugi fiskal.
 
 ---
 

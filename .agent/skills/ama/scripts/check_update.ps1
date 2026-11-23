@@ -30,7 +30,7 @@ if ([string]::IsNullOrWhiteSpace($SkillsDir)) {
 }
 
 $localSkillFile = Join-Path $SkillsDir "ama\SKILL.md"
-$localVersion = "1.1.0"
+$localVersion = "1.1.1"
 if (Test-Path $localSkillFile) {
     $content = Get-Content $localSkillFile -Raw -Encoding UTF8
     if ($content -match 'version:\s*"([^"]+)"') {

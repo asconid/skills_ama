@@ -2,12 +2,12 @@
 name: ama-ppn
 description: Spesialis PPN & e-Faktur Coretax: Tarif 11%/12%, pengkreditan Pajak Masukan (PM) vs Pajak Keluaran (PK), faktur pajak, WAPU pemerintah/BUMN, dan SPT Masa PPN.
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
-# AMA - PPN & Faktur Pajak (e-Faktur Coretax) (v1.1.0)
+# AMA - PPN & Faktur Pajak (e-Faktur Coretax) (v1.1.1)
 
-**Versi:** 1.1.0 (Format: [Nomor Release].[Major Update].[Minor Update])
+**Versi:** 1.1.1 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul spesialisasi Pajak Pertambahan Nilai (PPN), faktur pajak elektronik, aturan pengkreditan Pajak Masukan, mekanisme WAPU, dan pelaporan SPT Masa PPN.
 
@@ -25,7 +25,7 @@ Modul spesialisasi Pajak Pertambahan Nilai (PPN), faktur pajak elektronik, atura
 2. **Tarif PPN**: 11% (berlaku per 1 April 2022) / 12% (sesuai amanat UU HPP), Ekspor BKP/JKP 0%.
 3. **Mekanisme PK - PM**:
    - PPN Kurang Bayar = Pajak Keluaran (PK) > Pajak Masukan (PM).
-   - PPN Lebih Bayar = Pajak Keluaran (PK) < Pajak Masukan (PM) (dapat dikompensasikan atau direstitusi).
+   - PPN Lebih Bayar = Pajak Keluaran (PK) < Pajak Masukan (PM) (**Prioritas Hindari Pemeriksaan**: sarankan **kompensasi ke masa pajak berikutnya** dibanding restitusi—kecuali memenuhi syarat restitusi pendahuluan Wajib Pajak tertentu atau dokumen pembuktian 100% siap diaudit—karena permohonan restitusi rutin memicu pemeriksaan pajak sesuai Pasal 17B UU KUP).
 4. **Pajak Masukan Tidak Dapat Dikreditkan**:
    - Perolehan sebelum dikukuhkan PKP.
    - Tidak berhubungan langsung dengan kegiatan usaha (3M).

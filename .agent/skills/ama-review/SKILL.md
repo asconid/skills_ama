@@ -2,12 +2,12 @@
 name: ama-review
 description: Spesialis audit kepatuhan pajak, ekualisasi SPT (Omzet vs PPN vs PPh Badan, Biaya vs Potput), deteksi potensi koreksi pemeriksaan, analisis risiko SP2DK KPP, dan review Coretax DJP.
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
-# AMA - Audit Kepatuhan, Ekualisasi & Tanggapan SP2DK (v1.1.0)
+# AMA - Audit Kepatuhan, Ekualisasi & Tanggapan SP2DK (v1.1.1)
 
-**Versi:** 1.1.0 (Format: [Nomor Release].[Major Update].[Minor Update])
+**Versi:** 1.1.1 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Modul spesialisasi *Tax Health Check*, ekualisasi antar-laporan perpajakan, penanganan Surat Permintaan Penjelasan atas Data dan/atau Keterangan (SP2DK), dan audit kepatuhan berbasis sistem Coretax DJP.
 
@@ -26,6 +26,7 @@ Modul spesialisasi *Tax Health Check*, ekualisasi antar-laporan perpajakan, pena
 > 1. **Potensi SP2DK**: Indikasi pemicu surat penjelasan dari Account Representative (AR) KPP.
 > 2. **Sanksi Keterlambatan Setor/Lapor**: Perhitungan denda Pasal 7 UU KUP dan sanksi bunga per bulan UU HPP.
 > 3. **Langkah Mitigasi**: Solusi perbaikan mandiri (pembetulan SPT, penyiapan dokumen bukti pendukung) sebelum dilakukan pemeriksaan atau diterbitkan SKP.
+> 4. **Prioritas Pencegahan Pemeriksaan Pajak (*Tax Audit Avoidance*)**: Identifikasi pemicu skor risiko CRM DJP (SPT Lebih Bayar/restitusi, rugi fiskal berturut-turut, anomali rasio CTTOR/GPM terhadap benchmark KLU, pembetulan berulang, atau lawan transaksi berisiko/TBTS) dan susun langkah koreksi preventif sebelum naik ke tahap Surat Perintah Pemeriksaan (SP2).
 
 ---
 
@@ -51,6 +52,7 @@ Modul spesialisasi *Tax Health Check*, ekualisasi antar-laporan perpajakan, pena
    - Memuat nomor SP2DK, data identitas WP (NPWP/NITKU 16 digit).
    - Penjelasan kronologis dan dasar hukum pendukung.
    - Lampiran bukti objektif: Faktur Pajak, Bukti Potong, Buku Besar (*General Ledger*), rekening koran.
+4. **Target Penyelesaian Tuntas di Level SP2DK**: Prioritaskan klarifikasi bukti lengkap atau pembetulan SPT mandiri (Pasal 8 UU KUP) pada masa SP2DK agar temuan selesai tuntas dan tidak bereskalasi ke tahap Pemeriksaan Pajak formal (SP2).
 
 ---
 

@@ -2,12 +2,12 @@
 name: ama-help
 description: Panduan bantuan navigasi komprehensif, daftar seluruh slash command / trigger AMA, contoh prompt penggunaan, dan kapabilitas konsultasi akuntansi pajak.
 metadata:
-  version: "1.1.0"
+  version: "1.1.1"
 ---
 
-# AMA - Pusat Bantuan & Direktori Perintah (v1.1.0)
+# AMA - Pusat Bantuan & Direktori Perintah (v1.1.1)
 
-**Versi:** 1.1.0 (Format: [Nomor Release].[Major Update].[Minor Update])
+**Versi:** 1.1.1 (Format: [Nomor Release].[Major Update].[Minor Update])
 
 Panduan lengkap penggunaan AMA (Asisten Manajemen & Akuntan Pajak Indonesia) untuk membantu Wajib Pajak Orang Pribadi dan Badan menavigasi konsultasi akuntansi dan perpajakan.
 
@@ -20,6 +20,7 @@ Gunakan perintah di bawah ini sesuai topik spesifik yang ingin Anda konsultasika
 | Slash Command | Fungsi & Spesialisasi | Contoh Pertanyaan |
 | :--- | :--- | :--- |
 | **`/ama-simulasi`** | **Simulasi Laporan Keuangan (15 Kelompok Akun)** | `"/ama-simulasi buatkan proyeksi 2026 PT dagang omzet 15 Miliar"` |
+| **`/ama update`** | **Pengecekan & Pembaruan Versi GitHub** | `"/ama update"` |
 | **`/ama`** | **Konsultasi Pajak Umum & Akuntansi** | `"/ama kami baru mendirikan PT, apa saja kewajiban perpajakannya?"` |
 | **`/ama-pph21`** | **PPh 21 TER, Karyawan & Natura** | `"/ama-pph21 hitung TER PPh 21 Budi (K/1) gaji 10 jt dan bonus 15 jt"` |
 | **`/ama-badan`** | **PPh Badan & Rekonsiliasi Fiskal** | `"/ama-badan omzet kami 12 Miliar laba 1,5 M, hitung fasilitas Pasal 31E"` |
@@ -34,8 +35,9 @@ Gunakan perintah di bawah ini sesuai topik spesifik yang ingin Anda konsultasika
 
 ## 2. Fitur Utama AMA
 
-1. **Perhitungan Kertas Kerja Transparan**: Seluruh komputasi memuat DPP, tarif, dan formula hukum langkah demi langkah.
-2. **Jurnal Akuntansi Pembukuan**: Menyertakan pencatatan debit/kredit (*Beban Pajak, Utang PPh, Kredit Pajak*).
-3. **Peringatan Otomatis Keterkaitan Lintas Pajak (*Cross-Tax Alert*)**: Jika transaksi menyangkut pajak lain di luar trigger yang dipanggil, AMA akan mengingatkan terlebih dahulu di awal tanggapan.
-4. **Kepatuhan Coretax DJP & UU HPP**: Berbasis PMK 168/2023 (TER PPh 21), PMK 66/2023 (Natura), PP 55/2022 (UMKM), dan UU Cipta Kerja/HPP.
+1. **Prosedur Prioritas Pencegahan Pemeriksaan Pajak Klien (*Tax Audit Avoidance Priority*)**: Mengutamakan opsi kepatuhan dan perencanaan pajak legal yang menghindari pemicu pemeriksaan pajak DJP (SPT Lebih Bayar/restitusi, anomali benchmark KLU, selisih ekualisasi, serta eskalasi SP2DK ke SP2).
+2. **Perhitungan Kertas Kerja Transparan**: Seluruh komputasi memuat DPP, tarif, dan formula hukum langkah demi langkah.
+3. **Jurnal Akuntansi Pembukuan**: Menyertakan pencatatan debit/kredit (*Beban Pajak, Utang PPh, Kredit Pajak*).
+4. **Peringatan Otomatis Keterkaitan Lintas Pajak (*Cross-Tax Alert*)**: Jika transaksi menyangkut pajak lain di luar trigger yang dipanggil, AMA akan mengingatkan terlebih dahulu di awal tanggapan.
+5. **Kepatuhan Coretax DJP & UU HPP**: Berbasis PMK 168/2023 (TER PPh 21), PMK 66/2023 (Natura), PP 55/2022 (UMKM), dan UU Cipta Kerja/HPP.
 
